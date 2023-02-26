@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Class Timetable</title>
+    <style>
+      table, th, td {
+        border: 1px solid black;
+        border-collapse: collapse;
+        text-align: center;
+        padding: 10px;
+      }
+
+      th {
+        background-color: lightgray;
+      }
+
+      .lunch {
+        writing-mode: horizontal-tb;
+        text-orientation: upright;
+      }
+
+      .math
+	  {
+        background-color: rgb(199, 187, 95);
+      }
+	  .science
+	  {
+        background-color: rgb(79, 148, 125);
+      }
+	 .english 
+	 {
+        background-color: lightblue;
+      }
+
+      .history
+	  {
+        background-color: rgb(151, 138, 138);
+      }
+	  .art
+	  {
+        background-color: rgb(178, 117, 236);
+      }
+	  .gym 
+	  {
+        background-color: lightgreen;
+      }
+
+      caption {
+        text-align: center;
+        font-weight: bold;
+        font-size: 24px;
+        margin-bottom: 10px;
+      }
+    </style>
+  </head>
+  <body>
+    <table>
+      <caption>Class Timetable</caption>
+      <tr>
+        <th>Time</th>
+        <th>Monday</th>
+        <th>Tuesday</th>
+        <th>Wednesday</th>
+        <th>Thursday</th>
+        <th>Friday</th>
+      </tr>
+      <tr>
+        <td>9:00 - 10:00</td>
+        <td class="math">Math</td>
+        <td class="history">History</td>
+        <td class="art">Art</td>
+        <td class="gym">Gym</td>
+        <td class="science">Science</td>
+      </tr>
+      <tr>
+        <td>10:00 - 11:00</td>
+        <td class="math">Math</td>
+        <td class="history">History</td>
+        <td class="art">Art</td>
+        <td class="gym">Gym</td>
+        <td class="science">Science</td>
+      </tr>
+      <tr>
+        <td>11:00 - 12:00</td>
+        <td class="math">Math</td>
+        <td class="history">History</td>
+        <td class="art">Art</td>
+        <td class="gym">Gym</td>
+        <td class="english">English</td>
+      </tr>
+      <tr>
+        <td>12:00 - 1:00</td>
+        <td class="lunch" colspan="5">LUNCH</td>
+      </tr>
+      <tr>
+        <td>1:00 - 2:00</td>
+        <td class="english">English</td>
+        <td class="science">Science</td>
+        <td class="math">Math</td>
+        <td class="history">History</td>
+        <td class="art">Art</td>
+      </tr>
+      <tr>
+        <td>2:00 - 3:00</td>
+        <td class="english">English</td>
+        <td class="science">Science</td>
+        <td class="math">Math</td>
+        <td class="history">History</td>
+        <td class="art">Art</td>
+      </tr>
+    </table>
+  </body>
+</html>
