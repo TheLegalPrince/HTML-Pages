@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Change Background Color</title>
+</head>
+<body id="body" style="transition: background-color 0.5s ease;">
+  
+  <h1>Hello, World!</h1>
+  <button onclick="changeBackgroundColor()">Change Background Color</button>
+  
+  <script>
+  var colors = ["#ff0000", "#00ff00", "#0000ff"];
+  var currentIndex = 0;
+  
+  function changeBackgroundColor() {
+    var body = document.getElementById("body");
+    body.style.backgroundColor = colors[currentIndex];
+    currentIndex = (currentIndex + 1) % colors.length;
+  }
+  </script>
+
+</body>
+</html>

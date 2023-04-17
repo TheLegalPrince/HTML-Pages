@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xml>
+    <GLA>
+        <s1:student>
+            <name>Whitebeard</name>
+            <age>20</age>
+            <gender>Male</gender>
+            <major>Computer Science</major>
+            <gpa>3.5</gpa>
+        </s1:student>
+        <student>
+            <name>Blackbeard</name>
+            <age>20</age>
+            <gender>Male</gender>
+            <major>Computer Science</major>
+            <gpa>3.5</gpa>
+        </student>
+        <student>
+            <name>Crocodile</name>
+            <age>20</age>
+            <gender>Male</gender>
+            <major>Computer Science</major>
+            <gpa>3.5</gpa>
+        </student>
+        <student>
+            <name>Sanji</name>
+            <age>20</age>
+            <gender>Male</gender>
+            <major>Computer Science</major>
+            <gpa>3.5</gpa>
+        </student>
+        <student>
+            <name>Luffy</name>
+            <age>20</age>
+            <gender>Male</gender>
+            <major>Computer Science</major>
+            <gpa>3.5</gpa>
+        </student>
+        <student>
+            <name>Roronoa Zoro</name>
+            <age>20</age>
+            <gender>Male</gender>
+            <major>Computer Science</major>
+            <gpa>3.5</gpa>
+        </student>
+    </GLA>
+</xml>
