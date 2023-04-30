@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>Color Picker</title>
+  </head>
+  <body>
+    <h1>Color Picker</h1>
+    <div class="color-picker">
+      <label>Red:</label>
+      <input type="range" min="0" max="255" value="0" id="red-slider" oninput="changeBackgroundColor()">
+      <label>Green:</label>
+      <input type="range" min="0" max="255" value="0" id="green-slider" oninput="changeBackgroundColor()">
+      <label>Blue:</label>
+      <input type="range" min="0" max="255" value="0" id="blue-slider" oninput="changeBackgroundColor()">
+    </div>
+    <script>
+      function changeBackgroundColor() {
+        const redValue = document.getElementById("red-slider").value;
+        const greenValue = document.getElementById("green-slider").value;
+        const blueValue = document.getElementById("blue-slider").value;
+        const rgbValue = `rgb(${redValue}, ${greenValue}, ${blueValue})`;
+        document.body.style.backgroundColor = rgbValue;
+      }
+    </script>
+    <style>
+      h1 {
+        text-align: center;
+      }
+
+      .color-picker {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 50px;
+      }
+
+      label {
+        font-size: 20px;
+        margin-right: 10px;
+      }
+
+      input[type=range] {
+        -webkit-appearance: none;
+        width: 200px;
+        height: 5px;
+        background-color: gray;
+        outline: none;
+        border-radius: 5px;
+      }
+
+      input[type=range]::-webkit-slider-thumb {
+        -webkit-appearance: none;
+        width: 20px;
+        height: 20px;
+        background-color: red;
+        border-radius: 50%;
+        cursor: pointer;
+      }
+
+      input[type=range]::-webkit-slider-thumb:hover {
+        background-color: white;
+      }
+    </style>
+  </body>
+</html>
